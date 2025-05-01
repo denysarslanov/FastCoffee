@@ -24,4 +24,4 @@ RUN npm install
 
 EXPOSE 80
 
-CMD ["sh", "-c", "node index.js & nginx -g 'daemon off;'"]
+CMD ["sh", "-c", "node api.js & nginx -g 'daemon off;'"]
