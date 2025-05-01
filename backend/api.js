@@ -1,7 +1,8 @@
-const express = require('express');
-const { PORT } = process.env.PORT || require('./constants')
+const express = require('express')
 const { setConnection } = require('./db_layer/setConnection')
 const startCoffeeRouter = require('./coffee/coffeeRouter')
+
+const PORT = process.env.PORT || 5000
 
 const app = express()
 const db = { connection: null }
