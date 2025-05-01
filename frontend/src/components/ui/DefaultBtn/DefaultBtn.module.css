@@ -1,0 +1,12 @@
+.btn {
+    border-radius: 15px;
+    background: transparent;
+    border: 2px solid black;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #dcdad9;
+    border: 2px solid transparent;
+}

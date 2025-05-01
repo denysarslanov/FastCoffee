@@ -1,0 +1,26 @@
+.sizes__content {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sizes__content>button {
+    height: 40px;
+    width: 100px;
+}
+
+.sizes__content>button:not(:first-of-type) {
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .sizes__content {
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sizes__content {
+        justify-content: space-around;
+    }
+}

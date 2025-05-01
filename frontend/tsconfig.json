@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "alwaysStrict": true,
+      "noImplicitAny": true,
+      "jsx": "react",
+      "plugins": [{ "name": "typescript-plugin-css-modules" }],
+      "strictNullChecks": true,
+      "target": "ES5",
+      "module": "commonjs",
+      "explainFiles": true
+    }
+  }

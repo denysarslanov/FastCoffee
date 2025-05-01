@@ -1,0 +1,14 @@
+.allItemsWrapper {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    justify-content: space-around;
+    grid-auto-rows: minmax(300px, 600px);
+    row-gap: 40px;
+    column-gap: 30px;
+    /*
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    */
+}

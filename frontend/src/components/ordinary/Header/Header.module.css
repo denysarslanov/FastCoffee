@@ -1,0 +1,26 @@
+.header {
+    width: 100%;
+    min-height: 400px;
+    height: 100vh;
+    background: url(../../../assets/images/bg2.jpg) no-repeat center center / cover;
+    background-attachment: fixed;
+    border-bottom: 1px solid black;
+}
+
+.headerSmall {
+    height: auto;
+    width: 100%;
+}
+
+.header__contentWrapper {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .header__contentWrapper {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,10 @@
+.blockTitle {
+    margin: 40px auto 20px auto;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}

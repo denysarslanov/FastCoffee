@@ -1,0 +1,16 @@
+.products__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    list-style: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .products {
+        max-width: 85%;
+        margin: auto;
+    }
+}

@@ -1,0 +1,29 @@
+.contacts__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 30px;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.contact {
+    max-width: 360px;
+    height: auto;
+    margin: 5px;
+    min-width: 180px;
+}
+
+.contact__icon {
+    display: block;
+    width: 45px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contact__text {
+    white-space: pre-line;
+    text-align: center;
+}

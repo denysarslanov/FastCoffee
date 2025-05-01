@@ -1,0 +1,30 @@
+.footer {
+    display: grid;
+    box-sizing: border-box;
+    padding: 0 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+    flex-flow: row wrap;
+    background: #faf6f0;
+    margin-top: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer>div {
+    justify-self: center;
+    text-align: center;
+    min-width: 250px;
+}
+
+.footer__item a {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.footer__item {
+    font-size: 16px;
+}

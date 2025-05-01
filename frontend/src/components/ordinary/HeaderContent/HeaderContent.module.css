@@ -1,0 +1,27 @@
+.header__content {
+    color: #000;
+    background: rgba(255, 255, 255, 0.7);
+    width: 40%;
+    height: 35%;
+    padding: 15px;
+    margin-top: -5%;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-right: 10%;
+}
+
+.header__content h1 {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+    .header__content {
+        display: flex;
+        width: 70%;
+        height: 50%;
+        margin: 0;
+        flex-flow: column nowrap;
+        justify-content: space-around;
+    }
+}

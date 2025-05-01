@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#app {
+    min-height: 100vh;
+    position: relative;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.4s;
+    border-bottom: 1px solid transparent;
+}
+
+a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+p,
+div,
+span,
+button,
+input,
+label,
+aside {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+a,
+h4 {
+    font-size: 21px;
+    line-height: 140%;
+}
+
+@media screen and (max-width: 560px) {
+    a,
+    h4 {
+        font-size: 14px;
+        line-height: 160%;
+    }
+}
+
+.list {
+    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.list>li {
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 840px) {
+    .list>li {
+        text-align: center;
+    }
+}
+
+.defaultBtn {
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 15px;
+    width: auto;
+    padding: 5px 40px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.defaultBtn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
+}
+
+h1 {
+    font-size: 24px;
+}

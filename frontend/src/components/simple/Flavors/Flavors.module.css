@@ -1,0 +1,23 @@
+.flavors {
+    margin-top: 20px;
+}
+
+.flavors__title {
+    font-weight: 600;
+}
+
+.flavors__list {
+    list-style: decimal;
+}
+
+.flavor {
+    margin-top: 15px;
+}
+
+.flavor__button {
+    display: block;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+}

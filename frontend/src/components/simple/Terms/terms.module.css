@@ -1,0 +1,19 @@
+.terms {
+    margin-top: 50px;
+}
+
+.terms__title {
+    max-width: 50%;
+    margin: 0 auto 30px auto;
+}
+
+.terms__content {
+    margin-top: 70px;
+}
+
+.terms__list {
+    max-width: 90%;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}

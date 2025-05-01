@@ -1,0 +1,65 @@
+.butter {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: transform 0.3s ease-in-out;
+    list-style: none;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .butter,
+    .butterOpened {
+        display: flex !important;
+        padding: 0;
+    }
+}
+
+.butterOpened {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: transform 0.3s ease-in-out;
+    list-style: none;
+    transform: translateX(0);
+    display: none;
+}
+
+.line {
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.line:nth-of-type(1) {
+    transform-origin: top left;
+}
+
+.butterOpened .line:nth-of-type(1) {
+    transform: rotate(35deg);
+}
+
+.line:nth-of-type(2) {
+    opacity: 1;
+}
+
+.butterOpened .line:nth-of-type(2) {
+    opacity: 0;
+}
+
+.line:nth-of-type(3) {
+    transform-origin: bottom left;
+}
+
+.butterOpened .line:nth-of-type(3) {
+    transform: rotate(-35deg);
+}
+
+.white {
+    background: #fff !important;
+}

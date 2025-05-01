@@ -1,0 +1,49 @@
+.navbarContainer {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100vw;
+}
+
+.navbarContentBlack {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background: #faf6f0;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.navbarContentBlack .logoContainer a {
+    color: #000;
+}
+
+.logoContainer a {
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.logoContainer {
+    margin-left: 3%;
+}
+
+.nav {
+    width: 50%;
+    padding-right: 2%;
+}

@@ -1,0 +1,10 @@
+.titleContainer {
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .products {
+        max-width: 85%;
+        margin: auto;
+    }
+}
