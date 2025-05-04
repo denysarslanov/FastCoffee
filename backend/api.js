@@ -21,8 +21,8 @@ async function connectWithRetry() {
                     setTimeout(connectWithRetry, 5000)
                 }
             } else {
-                console.error('Фатальная ошибка соединения:', err)
-                process.exit(1);
+                console.error('Fatal Err', err)
+                setTimeout(connectWithRetry, 5000);
             }
         }
 
