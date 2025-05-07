@@ -24,4 +24,4 @@ RUN echo "Содержимое /usr/share/nginx/html:" && ls -la /usr/share/ngin
 
 EXPOSE 80
 
-CMD ["sh", "-c", "node api.js & nginx -g 'daemon off;'"]
+CMD ["sh", "-c", "node api.js & sleep 3 && nginx -g 'daemon off;'"]
