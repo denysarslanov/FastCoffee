@@ -1,15 +1,15 @@
 FROM node:18-alpine AS frontend-build
-WORKDIR /app/frontend
-COPY frontend/package*.json ./
-RUN npm install
-COPY frontend/ ./
-RUN npm run build
+WORKDIR /app
+COPY frontend/package*.json ./frontend/
+RUN cd frontend && npm install
+COPY frontend ./frontend
+RUN cd frontend && npm run build
 
 FROM node:18-alpine AS backend-build
-WORKDIR /app/backend
-COPY backend/package*.json ./
-RUN npm install
-COPY backend/ ./
+WORKDIR /app
+COPY backend/package*.json ./backend/
+RUN cd backend && npm install
+COPY backend ./backend
 
 FROM nginx:alpine
 RUN apk add --no-cache nodejs npm
@@ -19,8 +19,6 @@ COPY --from=backend-build /app/backend /app/backend
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
 WORKDIR /app/backend
-
-RUN npm install
 
 EXPOSE 80
 
