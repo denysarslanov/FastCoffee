@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "./static/css/main.de65d47e.css",
+    "main.js": "./static/js/main.df5c79b8.js",
+    "static/media/bg2.jpg": "./static/media/bg2.dc879ab88f1472ca3a67.jpg",
+    "static/media/bg1.jpg": "./static/media/bg1.24746c8bc037af04e125.jpg",
+    "static/media/hot-chocolate.jpg": "./static/media/hot-chocolate.18d0e0ca4572860cd7b1.jpg",
+    "static/media/hot-tea.jpg": "./static/media/hot-tea.73a9872f30b15b21515c.jpg",
+    "static/media/espresso.jpg": "./static/media/espresso.97858ffba17588e99a90.jpg",
+    "static/media/fruit-tea.jpg": "./static/media/fruit-tea.0ed01ca3669091bd1785.jpg",
+    "static/media/62037-min.jpg": "./static/media/62037-min.4195a5452d131ad92d5c.jpg",
+    "static/media/smoothie-avocado-kiwi.jpg": "./static/media/smoothie-avocado-kiwi.5d14ba840ae602385916.jpg",
+    "static/media/smoothie-mango-banana.jpg": "./static/media/smoothie-mango-banana.9059e6a117186dcdba9b.jpg",
+    "static/media/fruit-smoothie.jpg": "./static/media/fruit-smoothie.81b13cb2c10d67445978.jpg",
+    "static/media/caramel-latte.jpg": "./static/media/caramel-latte.766ef899c5d4066b4da8.jpg",
+    "static/media/tea-latte.jpg": "./static/media/tea-latte.22daee5245f64d8e69f9.jpg",
+    "static/media/cappuccino.jpg": "./static/media/cappuccino.6e179400e2f28e305027.jpg",
+    "static/media/Mokachino.jpg": "./static/media/Mokachino.4e097a355e3fbfbad4fa.jpg",
+    "static/media/green-tea.jpg": "./static/media/green-tea.a0acd2a705227fbe98b9.jpg",
+    "static/media/double-espresso.jpg": "./static/media/double-espresso.791b4aff5e821510b934.jpg",
+    "static/media/ginger-tea.jpg": "./static/media/ginger-tea.eabb0f97079bcd96ea41.jpg",
+    "static/media/cacao.jpg": "./static/media/cacao.ac6e45af149ce5c9be2c.jpg",
+    "static/media/ice-latte.jpg": "./static/media/ice-latte.7e5cc0bb6e0f8bd90873.jpg",
+    "static/media/green-detox-smoothie.jpg": "./static/media/green-detox-smoothie.a52213afcdc81864e8e0.jpg",
+    "static/media/smoothie-pineapple-coconut.jpg": "./static/media/smoothie-pineapple-coconut.a150c25d0772487d93d1.jpg",
+    "static/media/flat-white.jpg": "./static/media/flat-white.0b171d1ea06fefe16212.jpg",
+    "static/media/tea-matcha.jpg": "./static/media/tea-matcha.612cd62fb5a64b87eab7.jpg",
+    "static/media/americano.jpg": "./static/media/americano.89a4eb79d6e9ed1f6b52.jpg",
+    "static/media/black-tea.jpg": "./static/media/black-tea.37f1edb8a700734368f5.jpg",
+    "static/media/latte.jpg": "./static/media/latte.89c874776e2f6494de45.jpg",
+    "static/media/milkshake.jpg": "./static/media/milkshake.9dd23a04a4dc6de0498e.jpg",
+    "static/media/locationIcon.png": "./static/media/locationIcon.38e9af4933db1dae9747.png",
+    "static/media/preloader.gif": "./static/media/preloader.9c7cd866c7fa25391ccd.gif",
+    "index.html": "./index.html",
+    "main.de65d47e.css.map": "./static/css/main.de65d47e.css.map",
+    "main.df5c79b8.js.map": "./static/js/main.df5c79b8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de65d47e.css",
+    "static/js/main.df5c79b8.js"
+  ]
+}
